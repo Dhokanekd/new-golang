@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Golang App</title>
+  <meta name="description" content="Simple index page for a Go web app image" />
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#60a5fa}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      background:linear-gradient(180deg, #071024, var(--bg));
+      color:#e6eef8;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:24px;
+    }
+    .card{
+      width:100%;
+      max-width:900px;
+      background:rgba(255,255,255,0.02);
+      border-radius:12px;
+      padding:28px;
+      box-shadow:0 6px 30px rgba(2,6,23,0.6);
+      border:1px solid rgba(255,255,255,0.03);
+    }
+    header{display:flex;align-items:center;gap:16px}
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      display:flex;align-items:center;justify-content:center;
+      background:linear-gradient(135deg,#0ea5e9,#2563eb);
+      font-weight:700;font-size:20px;color:white;
+      box-shadow:0 6px 18px rgba(37,99,235,0.18);
+    }
+    h1{margin:0;font-size:20px}
+    p.lead{margin:8px 0 18px;color:var(--muted)}
+    .grid{display:flex;gap:16px;flex-wrap:wrap}
+    .block{
+      flex:1 1 220px;
+      background:var(--card);
+      padding:14px;border-radius:10px;
+      min-width:220px; border:1px solid rgba(255,255,255,0.02)
+    }
+    .muted{color:var(--muted);font-size:13px}
+    .status{
+      margin-top:12px;
+      display:flex;gap:10px;align-items:center;
+      font-weight:600;
+    }
+    .dot{width:12px;height:12px;border-radius:50%}
+    .dot.ok{background: #10b981}
+    .dot.down{background:#ef4444}
+    footer{margin-top:18px;color:var(--muted);font-size:13px}
+    code {background:rgba(255,255,255,0.03
